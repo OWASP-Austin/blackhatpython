@@ -5,10 +5,7 @@ There are a few preparations prior to starting this book, rather than install de
 I prefer to use VMwarefusion VMs on NAT mode rather than my host machiene.
 Note we had trouble with arper.py on Virtual Box, and I recommend using VMwarefusion. 
 
-1. Install a Kali Linux VM
-  a) root user
-  b) secondary user
-  c) text editor with python packages
+Install a Kali Linux VM:
+  With a secondary user, and text editor with python packages
   
-2. Install a Windows VM
-  a) install python 
+Install a Windows VM: with python 
