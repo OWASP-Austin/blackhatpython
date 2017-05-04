@@ -8,6 +8,7 @@ Note we had trouble with arper.py on Virtual Box, and I recommend using VMwarefu
 1. Install a Kali Linux VM
   a) root user
   b) secondary user
+  c) text editor with python packages
   
 2. Install a Windows VM
   a) install python 
