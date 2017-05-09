@@ -2,6 +2,9 @@
 open terminal, run $ python UDP_Client.py
 open terminal, run $ python UDP_Server.py
 
+Example: use the UDP client to test a victim UDP server
+(use ours to see if it's working)
+
 UDP doesn't require handshake:
 it's not concerned with packet order or arrival
 ex: FTP, video and audio protocols.

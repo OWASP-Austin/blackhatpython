@@ -1,7 +1,15 @@
 '''
 Good examples of using this script are:
-How to use:
 
+testing application -> connect to TCP_proxy.py
+the server would see traffic seeminly coming from you;
+this is if you don't have access to burpsuite or zap
+
+How to use:
+$ sudo python ./TCP_proxy.py your_listener_ip target_ip target_port True
+
+eg:
+$ sudo python ./TCP_proxy.py 127.0.0.21 ftp.target.ca 21 True
 '''
 
 import sys, socket, threading
