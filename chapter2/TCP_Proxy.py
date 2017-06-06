@@ -2,7 +2,7 @@
 Good examples of using this script are:
 
 testing application -> connect to TCP_proxy.py
-the server would see traffic seeminly coming from you;
+the server would see traffic seemingly coming from you;
 this is if you don't have access to burpsuite or zap
 
 How to use:
@@ -12,7 +12,9 @@ eg:
 $ sudo python ./TCP_proxy.py 127.0.0.21 ftp.target.ca 21 True
 '''
 
-import sys, socket, threading
+import sys
+import socket
+import threading
 
 '''
 TCP likes to send banner first
@@ -24,6 +26,7 @@ def server_loop(local_host, local_port, report_host, remote_port, receive_first)
 
     try:
         server.bind((local_host, local_port))
+
     except:
         print "[!!] Failed to listen on %s:%d" % (local_host, local_port)
         print "[!!] Check for other listening sockets or correct permissions."
