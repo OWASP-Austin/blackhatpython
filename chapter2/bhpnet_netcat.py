@@ -5,7 +5,11 @@ To run : $ python bhpnet.py
 See usage method below for help
 '''
 
-import sys, socket, getopt, threading, subprocess
+import sys
+import socket
+import getopt
+import threading
+import subprocess
 
 # look at the docs for what each library
 # is doing to get a better understanding of the code.
@@ -169,6 +173,7 @@ def client_handler(client_socket):
 
                 # acknowledge that we wrote the file output
                 client_socket.send("Successfully saved file to %s\r\n" % upload_destination)
+
             except:
                 client_socket.send("Failed to save file to %s\r\n" % upload_destination)
 

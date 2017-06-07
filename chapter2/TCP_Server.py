@@ -11,7 +11,8 @@ $ python TCP_Server.py
 Remember to check the ports on the client / server and that they match
 '''
 
-import socket, threading
+import socket
+import threading
 
 bind_ip = "0.0.0.0"
 bind_port = 9999  # don't need to be sudo, non priv IP (less 1024)
