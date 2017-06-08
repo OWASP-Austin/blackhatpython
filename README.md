@@ -13,9 +13,9 @@ Install a Windows VM: with python
 
 
 MISSING FILES:
-ch 2 - SSH Tunneling: rforward.py
-ch 6 - Bing for Burp: bhp_bing.py
+* ch 2 - SSH Tunneling: rforward.py
+* ch 6 - Bing for Burp: bhp_bing.py
 
 PARTIAL: (merge request opportunity)
-ch 6  - Turning Website Content into Password Gold: (whatever file name you saved as)
-all ch 7 entries
+* ch 6 - Turning Website Content into Password Gold: (whatever file name you saved as)
+* ch 7 - Allentries
