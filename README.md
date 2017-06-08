@@ -6,10 +6,10 @@ I prefer to use VMwarefusion VMs on NAT mode rather than my host machiene.
 Note we had trouble with arper.py on Virtual Box, and I recommend using VMwarefusion. 
 
 Install a Kali Linux VM:
-  With a secondary user, and text editor with python packages
+ * With a secondary user, and text editor with python packages
   
-Install a Windows VM: with python 
-
+Install a Windows VM:
+ * With python 
 
 
 MISSING FILES:
@@ -18,4 +18,4 @@ MISSING FILES:
 
 PARTIAL: (merge request opportunity)
 * ch 6 - Turning Website Content into Password Gold: (whatever file name you saved as)
-* ch 7 - Allentries
+* ch 7 - All entries
